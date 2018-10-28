@@ -77,7 +77,7 @@ const draw1 = function () {
 const gameover = function () {
   for (let i = 0; i < countObj.length; i++) {
     if (countObj[i].x + countObj[i].width >= penguin.x && countObj[i].x <= penguin.x + penguin.width && countObj[i].y + countObj[i].height >= penguin.y && countObj[i].y <= penguin.y + penguin.height) {
-      //alert("Game over !!!")
+      alert("Game over !!!")
     }
   }
 }
