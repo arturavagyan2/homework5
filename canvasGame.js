@@ -19,7 +19,7 @@ const badGuyzz = function (count, canvasWidth, canvasHeight) {
 
   for (let i = 0; i < count; i++) {
 
-    const penguin = {
+    const piggies = {
       x: rand(canvasWidth - 50),
       y: rand(canvasHeight - 50),
       width: 50,
@@ -41,7 +41,7 @@ const badGuyzz = function (count, canvasWidth, canvasHeight) {
           this.yDelta = this.yDelta * -1}
       }
     };
-    arr[i] = penguin;
+    arr[i] = piggies;
   }
   return arr;
 };
